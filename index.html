@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Don Angelo - Churros con Corazón</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    header img {
+  width: 100%;
+  height: 300px; /* Puedes ajustar esta altura */
+  object-fit: cover;
+  display: block;
+  filter: brightness(60%);
+}
+
+
+    header .texto-banner {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    nav {
+      background-color: #d2691e;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2em;
+    }
+
+    .columnas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2em;
+    }
+
+    .columna {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- ENCABEZADO CON IMAGEN DE BANNER Y TEXTO SUPERPUESTO -->
+  <header>
+    <img src="https://natashaskitchen.com/wp-content/uploads/2020/03/Churros-Recipe-5.jpg" alt="Banner de churros">
+    <div class="texto-banner">
+      <h1 style="font-size: 3em; margin: 0;">Don Angelo</h1>
+      <p style="font-size: 1.5em; margin: 0;">Churros con Corazón desde 1982</p>
+    </div>
+  </header>
+
+  <!-- MENÚ DE NAVEGACIÓN -->
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre">Sobre Nosotros</a>
+    <a href="#menu">Menú</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <!-- SECCIÓN DE BIENVENIDA -->
+  <section id="inicio">
+    <h2>Bienvenidos a Don Angelo</h2>
+    <p>El mejor sabor tradicional en cada churro. Elaboramos nuestros productos con recetas familiares que han pasado de generación en generación.</p>
+  </section>
+
+  <!-- SECCIÓN SOBRE NOSOTROS CON COLUMNAS -->
+  <section id="sobre">
+    <h2>Sobre Nosotros</h2>
+    <div class="columnas">
+      <div class="columna">
+        <p>Don Angelo comenzó como un carrito en la plaza central, ofreciendo churros calientes con azúcar y canela.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Churros_madrid.jpg/640px-Churros_madrid.jpg" alt="Churros tradicionales" width="100%">
+      </div>
+      <div class="columna">
+        <p>Hoy somos una pequeña empresa familiar que conserva el cariño en cada preparación, creciendo gracias a ustedes.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Churros_con_chocolate_-_Madrid.jpg/640px-Churros_con_chocolate_-_Madrid.jpg" alt="Churros con chocolate" width="100%">
+      </div>
+    </div>
+  </section>
+
+  <!-- MENÚ -->
+  <section id="menu">
+    <h2>Menú</h2>
+    <ul>
+      <li>Churros clásicos - $10</li>
+      <li>Churros rellenos de cajeta - $15</li>
+      <li>Churros con chocolate - $18</li>
+      <li>Combo Don Angelo (6 churros + chocolate caliente) - $35</li>
+    </ul>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📍 Dirección: Av. Central #123, Ciudad Dulce</p>
+    <p>📞 Teléfono: 55 1234 5678</p>
+    <p>✉️ Correo: contacto@donangelo.com</p>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p>&copy; 2025 Don Angelo. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
